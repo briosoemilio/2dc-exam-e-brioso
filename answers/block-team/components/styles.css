@@ -1,0 +1,117 @@
+* {
+  font-family: "Roboto-Regular" !important;
+}
+
+/* FONTS */
+.header1 {
+  font-size: 48px;
+  line-height: 60px;
+}
+.header2 {
+  font-size: 40px;
+  line-height: 45px;
+}
+.header3 {
+  font-size: 36px;
+  line-height: 45px;
+}
+.regular {
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-light {
+  font-family: "Roboto-Light";
+}
+.text-regular {
+  font-family: "Roboto-Regular";
+}
+.text-medium {
+  font-family: "Roboto-Medium";
+}
+.text-semiBold {
+  font-family: "Roboto-SemiBold";
+}
+.text-bold {
+  font-family: "Roboto-Bold";
+}
+.text-extraBold {
+  font-family: "Roboto-ExtraBold";
+}
+
+/* Components */
+.main-container {
+  padding: 24px;
+}
+
+#our-board {
+  margin-bottom: -50px;
+}
+
+#title {
+  margin-bottom: -15px;
+}
+.body-text {
+  max-width: 700px;
+  width: full;
+}
+
+.members-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 860px) {
+  .members-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.member-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  overflow: visible;
+}
+
+.member-card {
+  padding: 16px;
+  display: flex;
+  min-width: 300;
+  flex: 1;
+}
+
+.member-details {
+  margin-top: 8px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  grid-column: span 2;
+  background-color: #f9f9f9;
+}
+
+.photo-container {
+  margin-right: 30px;
+}
+
+.member-name {
+  margin-bottom: -20px;
+}
+
+.member-position {
+  margin-bottom: 30px;
+}
+
+.view-details-button {
+  padding: 15px;
+  background-color: transparent;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+
+.view-details-button:hover {
+  cursor: pointer;
+  background-color: lightGrey;
+}
+
+/* TRY */

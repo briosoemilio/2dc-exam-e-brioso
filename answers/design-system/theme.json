@@ -1,0 +1,40 @@
+{
+  "colors": {
+    "black": "#000000",
+    "dark": "#222222",
+    "yellow": "#EDE236",
+    "white": "#FFFFFF",
+    "ash": "#F2F2F2",
+    "maroon": "#913D2E"
+  },
+  "fontWeights": {
+    "extraBold": 800,
+    "bold": 700,
+    "semiBold": 600,
+    "medium": 500,
+    "regular": 400,
+    "light": 300
+  },
+  "fonts": {
+    "h1": {
+      "fontFamily": "Roboto",
+      "fontSize": "48px",
+      "lineHeight": "60px"
+    },
+    "h2": {
+      "fontFamily": "Roboto",
+      "fontSize": "40px",
+      "lineHeight": "45px"
+    },
+    "h3": {
+      "fontFamily": "Roboto",
+      "fontSize": "36px",
+      "lineHeight": "45px"
+    },
+    "p": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    }
+  }
+}
